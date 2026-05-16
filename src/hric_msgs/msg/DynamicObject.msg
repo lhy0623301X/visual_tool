@@ -1,0 +1,4 @@
+string id
+ObjectSemantic semantic
+ObjectState state
+ObjectShape shape

@@ -1,0 +1,13 @@
+string task_id
+uint8 task_type
+#到达目标点的位置公差(单位:米)
+float64 xy_goal_tolerance
+#到达目标点的角度公差(单位:弧度)
+float64 yaw_goal_tolerance
+---
+#是否成功
+bool success
+#信息描述
+string message
+#任务执行错误码(无错时为0)
+uint32 error_code

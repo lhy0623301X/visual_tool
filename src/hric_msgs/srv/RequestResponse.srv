@@ -1,0 +1,4 @@
+string request
+---
+string response
+bool success #表示服务调用是否成功

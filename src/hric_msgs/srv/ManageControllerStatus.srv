@@ -1,0 +1,14 @@
+string task_id
+uint8 task_type
+geometry_msgs/Pose pose
+
+uint8 STOP_IN_PLACE = 0 #原地站住(终止任务）
+uint8 WALKING_IN_PLACE = 1 #原地踏步
+uint8 CONTINUE_TASK = 2 #继续任务
+uint8 ENTER_ARRIVING  = 3 #进入arriving状态
+uint8 HOLD_IN_PLACE  = 4 #原地站住(不终止任务）
+uint8 STOP_IN_PLACE_RUN = 5 #原地跑步(终止任务）
+---
+bool result
+uint32 error_code
+string message 

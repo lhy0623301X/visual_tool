@@ -1,0 +1,13 @@
+# 起点和终点
+nav_msgs/Path path 
+geometry_msgs/PoseStamped goal 
+string task_id
+#到达目标点的位置公差(单位:米)
+float64 xy_goal_tolerance
+#到达目标点的角度公差(单位:弧度)
+float64 yaw_goal_tolerance
+#walk是否需要摆臂
+bool swing_arm 
+---
+bool result
+string message
